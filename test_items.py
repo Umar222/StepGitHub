@@ -8,4 +8,4 @@ def test_check_button_shopping_basket(browser):
     backet = browser.find_element_by_css_selector("#add_to_basket_form")
     button = backet.text
     print(button)
-    assert button == "Добавить в корзину"
+    assert button == "Añadir al carrito" or "Ajouter au panier"
